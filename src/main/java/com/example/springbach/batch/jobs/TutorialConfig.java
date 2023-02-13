@@ -1,6 +1,6 @@
 package com.example.springbach.batch.jobs;
 
-import com.example.springbach.batch.TutorialTasklet;
+import com.example.springbach.batch.tesklets.TutorialTasklet;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

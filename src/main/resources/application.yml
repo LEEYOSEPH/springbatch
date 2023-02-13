@@ -1,4 +1,5 @@
 spring:
+  batch.job.enabled: false # CommandLineRunner ?? ??
   datasource:
     url: jdbc:h2:mem:batchdb
     username: sa

@@ -1,4 +1,4 @@
-package com.example.springbach.batch;
+package com.example.springbach.batch.tesklets;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.StepContribution;
