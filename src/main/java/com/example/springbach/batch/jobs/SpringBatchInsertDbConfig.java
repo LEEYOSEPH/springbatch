@@ -19,8 +19,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 
 /**
-*
-*run : --spring.batch.job.names=dbInsertJob
+*       desc : .csv파일을 DB에 넣기
+*       run : --spring.batch.job.names=dbInsertJob
 *
 * */
 @Configuration
