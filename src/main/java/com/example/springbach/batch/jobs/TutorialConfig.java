@@ -29,7 +29,6 @@ public class TutorialConfig {
     //StepBuilderFactory를 통해서 tutorialStep을 생성
     @Bean
     public Step tutorialStep() {
-
         return stepBuilderFactory
                 .get("tutorialStep")
                 .tasklet(new TutorialTasklet()) // Tasklet 설정
